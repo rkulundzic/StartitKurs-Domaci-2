@@ -1,0 +1,64 @@
+ul {
+    list-style-type: none;
+    text-align: center;
+	padding: 0;
+    overflow: hidden;
+    background-color: rgb(38,38,38);
+}
+li{
+	float: left
+}
+/*centriranje linkova u navigacijina sredinu stranice?*/
+li a{
+	font-family: "corbel", roman;
+	font-weight: bold;
+	display:block;
+    color: rgb(200,200,200);
+    text-align: center;
+    padding: 14px 20px;
+}
+a:link{
+	text-decoration: none;
+}
+a:visited{
+	text-decoration: none;
+	color: rgb(90,90,90);
+}
+li a:hover{
+	background-color: rgb(0,0,0);
+}
+li img{
+	margin-left: 20px
+}
+#pisac{
+	text-align: center;
+	text-decoration: none; /*kako ukinuti underline na linku?*/
+	margin-top: 100px;
+	margin-bottom: 0px;
+	font-size: 16px;
+	font-family: "corbel", roman;
+	color:rgb(61,61,61);
+}
+h1{
+	text-align: center;
+	text-decoration: underline;
+	margin-top: 0px;
+	font-family: "corbel", roman;
+	font-size: 50px;
+	color: rgb(136,136,136);
+}
+#opis{
+	font-family: "corbel", roman;
+	font-size: 18px;
+	width: 700px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: justify;
+}
+#pozadina{
+	width: 1400px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
